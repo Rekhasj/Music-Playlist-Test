@@ -1,0 +1,31 @@
+.playlist-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.playlist-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.playlist-image {
+  height: 80px;
+  width: 100px;
+}
+h1 {
+  font-size: 20px;
+}
+p {
+  color: #3b82f6;
+}
+.playlist-name {
+  margin: 20px;
+}
+.button-icon {
+  margin: 20px;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+}

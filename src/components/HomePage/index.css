@@ -1,0 +1,58 @@
+.name-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 1000px;
+  max-height: 300px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.name {
+  font-size: 20px;
+  color: #ffffff;
+}
+.singer {
+  font-size: 15px;
+  color: #ffffff;
+}
+.song-container {
+  background-color: #152850;
+  background-size: cover;
+  padding: 20px;
+}
+.song-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sub-heading {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.playlist-item {
+  list-style-type: none;
+}
+.input {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+.search-icon-container {
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  color: #ffffff;
+  padding: 5px;
+}
+.no-songs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
